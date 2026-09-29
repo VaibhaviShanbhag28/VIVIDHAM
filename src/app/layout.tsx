@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
   },
   twitter: { card: "summary_large_image" },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: "/brand/vividham-icon.png", apple: "/brand/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {

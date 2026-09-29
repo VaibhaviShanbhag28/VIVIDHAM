@@ -18,7 +18,7 @@ export function Footer({ settings, categories }: { settings: SiteSettings; categ
     <footer className="mt-24 bg-emerald-950 text-emerald-100">
       <div className="container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-12">
         <div className="lg:col-span-4">
-          <Wordmark logoUrl={null} businessName={settings.businessName} tone="light" className="items-start" />
+          <Wordmark logoUrl={settings.logoUrl} businessName={settings.businessName} size="lg" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-emerald-100/80">
             {settings.footerText ?? settings.tagline ?? "Fine jewellery and gemstones, presented with care."}
           </p>

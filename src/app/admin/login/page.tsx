@@ -13,7 +13,7 @@ export default async function AdminLoginPage() {
     <main className="flex min-h-dvh items-center justify-center bg-cream px-4 py-16">
       <div className="w-full max-w-md">
         <div className="flex justify-center">
-          <Wordmark />
+          <Wordmark size="lg" />
         </div>
         <div className="card-surface mt-10 p-8 shadow-soft sm:p-10">
           <h1 className="text-3xl">Admin sign in</h1>

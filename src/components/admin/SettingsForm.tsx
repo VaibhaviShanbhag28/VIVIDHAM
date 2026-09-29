@@ -139,7 +139,7 @@ export function SettingsForm({ initial }: { initial: SettingsFormValues }) {
           <TextField label="Business name" required value={v.businessName} onChange={(x) => set("businessName", x)} maxLength={120} error={e("businessName")} />
           <TextField label="Tagline" value={v.tagline} onChange={(x) => set("tagline", x)} maxLength={200} error={e("tagline")} />
         </div>
-        <ImageUpload label="Logo" value={v.logoUrl} onChange={(x) => set("logoUrl", x)} kind="branding" hint="Transparent PNG or WebP recommended, at least 400px wide. Replaces the temporary wordmark." />
+        <ImageUpload label="Logo" value={v.logoUrl} onChange={(x) => set("logoUrl", x)} kind="branding" hint="Transparent PNG or WebP recommended, at least 400px wide. Square or circular works best. Leave empty to use the built-in VIVIDHAM Collection logo." />
         <TextArea label="Brand story" value={v.brandStory} onChange={(x) => set("brandStory", x)} rows={5} maxLength={4000} error={e("brandStory")} hint="Shown on the home page. Leave a blank line between paragraphs." />
       </Section>
 

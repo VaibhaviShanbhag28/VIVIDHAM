@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
     deviceSizes: [360, 480, 640, 768, 1024, 1280, 1600, 1920],
     imageSizes: [64, 96, 128, 192, 256, 384],
     remotePatterns: [{ protocol: "https", hostname: "res.cloudinary.com" }],
-    localPatterns: [{ pathname: "/media/**" }, { pathname: "/demo/**" }],
+    localPatterns: [{ pathname: "/media/**" }, { pathname: "/demo/**" }, { pathname: "/brand/**" }],
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
   experimental: {
